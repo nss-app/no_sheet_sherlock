@@ -61,6 +61,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#targets">Targets</a></li>
       </ul>
     </li>
     <li>
@@ -86,7 +87,21 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here are my sources of inspiration, and the problem I want to solve.
+I started using Anki to learn and remember Dutch words some time ago. I also started using it to **remember** Irish tunes.
+Here's my whole process
+1. Listen to the song a few times (best if played by friends)
+2. Learn by lots of repetition on short bits (still with friends, but sometimes over a recording)
+3. Once the tune is memorized, play it every once in a while to anchor it and have easy to access (mostly with Anki)
+4. When I'm in the mood, pick some song and try new things on style, ornamentations, rythms, and so on. (completely unstructured)
+
+It was nice at first to use no app. Anki proved to be a real benefit to me then when I started having dozens of songs to keep fresh, 
+and didn't want to either play all of them all the time or forget some of them regularly.
+
+Then I started learning from recordings. I know have to use two apps. Anki once I *know* the song, but Music Speed Changer before
+to learn the song first. MSC isn't even cloud capable so I record with the phone but can't use it on the tab or computer :/
+There needs to be a better way to put it all together, right ?
+
+That's where "No sheet, Sherlock !" emerges.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,19 +110,28 @@ Here are my sources of inspiration, and the problem I want to solve.
 
 ### Built With
 
-* [![Slint][Slint]][Slint-url]
 * [![Rust][Rust]][Rust-url]
+* [![Slint][Slint]][Slint-url]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Targets
+
+* [![Android][Android]][Android-url]
+* [![WebAssembly][WebAssembly]][WebAssembly-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here's where I'll tell you how to run NSS locally, once there's something to run. 
+
+<details>
+<p>
 
 ### Prerequisites
 
@@ -134,15 +158,15 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+</p>
+</details>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Exemple will come once there's something here !
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,10 +175,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] v0.2 : Basic speed changer with markers prototype
+- [ ] v0.3 : Added layer for basic spaced repetition
+- [ ] v0.4 : End to end experience validation
+- [ ] v0.5 : Cloud integration
+- [ ] v0.6 : Configurability (lengths, order, etc)
+- [ ] v1.0 : First complete prototype, lots of testing
 
 See the [open issues](https://github.com/nss-app/no_sheet_sherlock/issues) for a full list of proposed features (and known issues).
 
@@ -228,4 +254,8 @@ Project Link: [https://github.com/nss-app/no_sheet_sherlock](https://github.com/
 [Rust]: https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white
 [Rust-url]: https://www.rust-lang.org
 [Slint]: https://img.shields.io/badge/slint-2379F4?style=for-the-badge&logo=slint&logoColor=white
-[Slint-url]: https://www.rust-lang.org
+[Slint-url]: https://slint.dev/
+[Android]: https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white
+[Android-url]: https://www.android.com/
+[WebAssembly]: https://img.shields.io/badge/WebAssembly-654FF0?logo=webassembly&logoColor=fff
+[WebAssembly-url]: https://webassembly.org/
